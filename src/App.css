@@ -1,10 +1,10 @@
 * { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, -apple-system, sans-serif; }
 body { background-color: #f4f4f9; color: #333; }
 .app-container { max-width: 480px; margin: 0 auto; min-height: 100vh; display: flex; flex-direction: column; }
-.app-header { background: #2563eb; color: white; padding: 1rem; text-align: center; }
+.app-header { background: #333; color: white; padding: 1rem; text-align: center; }
 .app-content { padding: 1rem; flex: 1; display: flex; flex-direction: column; gap: 1.5rem; }
 
-.scan-btn { width: 100%; padding: 1rem; background: #2563eb; color: white; border: none; border-radius: 8px; font-weight: bold; font-size: 1rem; cursor: pointer; }
+.scan-btn { width: 100%; padding: 1rem; background: #333; color: white; border: none; border-radius: 8px; font-weight: bold; font-size: 1rem; cursor: pointer; }
 .scan-btn:active { background: #1d4ed8; }
 
 .history-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; }
@@ -14,7 +14,7 @@ body { background-color: #f4f4f9; color: #333; }
 .history-item { background: white; padding: 0.75rem; border-radius: 8px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); display: flex; flex-direction: column; gap: 0.5rem; }
 .history-item.favorite { border-left: 4px solid #f59e0b; }
 
-.qr-link { color: #2563eb; text-decoration: none; word-break: break-all; font-weight: 500; }
+.qr-link { color: #333; text-decoration: none; word-break: break-all; font-weight: 500; }
 .item-date { font-size: 0.75rem; color: #888; margin-top: 4px; display: block; }
 .item-actions { display: flex; justify-content: flex-end; gap: 0.5rem; border-top: 1px solid #eee; padding-top: 0.5rem; }
 .action-btn { background: none; border: none; padding: 4px; cursor: pointer; color: #555; }
